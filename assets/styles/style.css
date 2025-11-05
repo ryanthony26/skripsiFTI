@@ -1,0 +1,85 @@
+.intro-card {
+    background: white;
+    background: linear-gradient(135deg, #f7f9fc 0%, #e6f0ff 100%);
+    padding: 2rem;
+    border-radius: 1.2rem;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+.highlight {
+    color: #1f5eff;
+    font-weight: 600;
+}
+/* Button styling */
+div.stButton > button {
+    background: linear-gradient(90deg, #1f5eff, #4b8df8);
+    color: white;
+    border-radius: 0.6rem;
+    border: none;
+    font-weight: 600;
+    padding: 0.6rem 1.2rem;
+    transition: all 0.2s ease;
+}
+div.stButton > button:hover {
+    background: linear-gradient(90deg, #003b9a, #1f5eff);
+    transform: scale(1.03);
+}
+
+/* --- Guide Page Styling --- */
+.guide-header {
+    text-align: center;
+    background: linear-gradient(135deg, #eaf2ff, #f8fbff);
+    padding: 2.5rem 1.5rem;
+    border-radius: 1.2rem;
+    box-shadow: 0 6px 24px rgba(0, 0, 0, 0.05);
+    margin-bottom: 2rem;
+    animation: fadeIn 0.8s ease;
+}
+
+.guide-header h1 {
+    color: #002b80;
+    font-size: 2rem;
+    font-weight: 800;
+    margin-bottom: 0.5rem;
+}
+
+.guide-header p {
+    color: #3a4a6a;
+    font-size: 1.1rem;
+    line-height: 1.6rem;
+    margin: 0;
+}
+
+.custom-divider {
+    border: none;
+    height: 2px;
+    background: linear-gradient(90deg, #1f5eff, #4b8df8);
+    margin-bottom: 1.5rem;
+}
+
+.guide-content {
+    background: white;
+    border-radius: 1rem;
+    padding: 1.5rem 2rem;
+    box-shadow: 0 2px 12px rgba(0, 0, 0, 0.06);
+    line-height: 1.7rem;
+    color: #2c3e50;
+    margin-bottom: 1.5rem;
+}
+
+.tip-card {
+    background: linear-gradient(120deg, #e8f0ff, #f7faff);
+    border-left: 5px solid #1f5eff;
+    padding: 1rem 1.2rem;
+    border-radius: 0.8rem;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.04);
+    font-size: 0.95rem;
+    color: #1d2d50;
+    margin-bottom: 1.5rem;
+}
+
+@keyframes fadeIn {
+    from { opacity: 0; transform: translateY(10px); }
+    to { opacity: 1; transform: translateY(0); }
+}
